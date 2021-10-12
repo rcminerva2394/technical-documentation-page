@@ -2,7 +2,7 @@
 
 This project is made under the freecodecamp "Responsive Web Design" module and this is just pure HTML and CSS. The contents are all from the MDN. 
 
-**link of the project:https://rcminerva2394.github.io/technical-documentation-page/**
+**link of the project: https://rcminerva2394.github.io/technical-documentation-page/**
 
 
 **The following are the fulfilled requirements of the project:**
