@@ -3,20 +3,23 @@
     <head>
         <meta charset="utf-8">
         <title>Basic Concepts of Grid layout</title>
+         <meta
+            name="description"
+            content="The technical documentation for CSS Grid from MDN"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/styles.css">
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-       
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
     </head>
 
     <body>
-            <nav id="navbar">
+             <nav id="navbar">
                 <input type="checkbox" id="menu">
                 <header class="nav-header">
                     <h1>Grid</h1>
-                    <img src="https://rcminerva2394.github.io/technical-documentation-page/grid-logo.png" alt="Grid logo" id="logo">
-                    <label for="menu" onclick id="toggle-menu"><img src="https://rcminerva2394.github.io/technical-documentation-page/menu.png"
-                       alt="" id="drp-menu">
+                    <img src="/img/grid-logo.png" alt="Grid logo" id="logo">
+                    <label for="menu" onclick id="toggle-menu"><img src="/img/menu.png"
+                       alt="menu-icon" id="drp-menu">
                     </label>
                 </header>
                 <div id="nav-links">
@@ -124,8 +127,8 @@
                         Developer Tools. If you view this example in Firefox and inspect the grid, you will see a small icon next to 
                         the value <code>grid</code>. Click this and then the grid on this element will be overlaid in the browser window.
                     </p>
-                    <img src="https://rcminerva2394.github.io/technical-documentation-page/sample-grid.PNG" alt="a sample grid"><br>
-                    <img src="https://rcminerva2394.github.io/technical-documentation-page/grid-inspector.PNG" alt="the grid inspector">
+                    <img src="/img/sample-grid.PNG" alt="a sample grid"><br>
+                    <img src="/img/grid-inspector.PNG" alt="the grid inspector">
                     <p> As you learn and then work with the CSS Grid Layout this tool will give you a better idea of what is happening 
                         with your grids visually. <br><br>
                         If we want to start making this more grid-like we need to add column tracks.
@@ -400,7 +403,7 @@
                        Grid then gives us numbered lines to use when positioning items. In our three column, 
                        two row grid we have four column lines.
                     </p>
-                    <img src="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout/1_diagram_numbered_grid_lines.png">
+                    <img src="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout/1_diagram_numbered_grid_lines.png" alt="Grid lines">
                     <p>Lines are numbered according to the writing mode of the document. In a left-to-right language, 
                         line 1 is on the left-hand side of the grid. In a right-to-left language, it is on the right-hand side of the grid.
                          Lines can also be named, and we will look at how to do this in a later guide in this series.
@@ -534,9 +537,9 @@
                     as <code>grid-column-gap</code>, <code>grid-row-gap</code> and <code>grid-gap</code> respectively. Browsers all now support unprefixed values, however the prefixed versions will be maintained as aliases making them safe to use.</p>
             </div>
             <pre class="code-snip">
-                <code>
-    &lt;<span class="tag">div</span> class=&quot;<span class="class-name">wrapper</span>&quot;&gt;
-      &lt;<span class="tag">div</span>&gt;One&lt;/<span class="tag">div</span>&gt;
+                <code> 
+                  &lt;<span class="tag">div</span> class=&quot;<span class="class-name">wrapper</span>&quot;&gt;
+                  &lt;<span class="tag">div</span>&gt;One&lt;/<span class="tag">div</span>&gt;
       &lt;<span class="tag">div</span>&gt;Two&lt;/<span class="tag">div</span>&gt;
       &lt;<span class="tag">div</span>&gt;Three&lt;/<span class="tag">div</span>&gt;
       &lt;<span class="tag">div</span>&gt;Four&lt;/<span class="tag">div</span>&gt;
